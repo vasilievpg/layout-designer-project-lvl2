@@ -4,9 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Портал «Music Box» pavel_vasilev</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
-
+<header class="header">
+    <nav class="navbar-items">
+        <div class="navbar-logo">
+            <img src="images/logo.svg" alt="logo" class="logo-img">
+            <span class="logo-text">Music Box</span>
+        </div>
+        <a href="#" class="navbar-link">Главная</a>
+        <a href="#" class="navbar-link">Каталог</a>
+        <a href="#" class="navbar-link">Исполнители</a>
+        <a href="#" class="navbar-link">Контакты</a>
+    </nav>
+    <div class="navbar-items navbar-right">
+        <form action="#" class="navbar-link">
+            <label for="search">
+                <input type="text" id="search" class="search-top arial-13-up" placeholder="Поиск...">
+            </label>
+        </form>
+    </div>
+</header>
+<section class="page-description">
+    <h1 class="h1-hero">Онлайн музыка где угодно</h1>
+    <h2 class="m-0">без ограничений</h2>
+    <p class="text-size-1 hero-lead">Получите доступ всего за несколько шагов. Заполните форму ниже и откройте мир музыки</p>
+    <form action="#" class="get-access-form">
+        <div class="container-form">
+            <div class="get-access-fields">
+                <label for="name" class="sr-only"></label>
+                <input type="text" id="name" placeholder="Имя" class="get-access-field">
+                <label for="email" class="sr-only"></label>
+                <input type="text" id="email" placeholder="Email" class="get-access-field">
+            </div>
+            <button type="submit" class="btn btn-green arial-13-up w-100">Получить доступ</button>
+        </div>
+    </form>
+</section>
 </body>
 </html>

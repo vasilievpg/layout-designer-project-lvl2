@@ -1,0 +1,73 @@
+.page-description {
+  padding: 200px 0;
+
+  text-align: center;
+
+  background-image: url("../images/banner.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.h1-hero {
+  margin: 0;
+}
+
+.get-access-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container-form {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 570px;
+}
+
+.get-access-fields {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.get-access-field {
+  box-sizing: border-box;
+  min-width: 270px;
+  min-height: 50px;
+
+  margin-bottom: 1.5rem;
+  padding-left: 20px;
+
+  border: 2px solid #cacaca;
+  border-radius: 3px;
+
+  color: #fff;
+
+  background-color: transparent;
+}
+
+.get-access-field::placeholder {
+  color: #fff;
+
+  font-weight: 700;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 415px) {
+  .h1-hero {
+    margin-top: 78px;
+  }
+
+  .hero-lead {
+    margin: 16px 20px;
+  }
+
+  .get-access-form {
+    margin: 0 20px;
+  }
+
+  .get-access-field {
+    width: 100%;
+  }
+}
