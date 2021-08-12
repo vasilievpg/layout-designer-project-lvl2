@@ -59,6 +59,20 @@ h2 {
   line-height: 1.5;
 }
 
+.text-size-3 {
+  font-size: 32px;
+  line-height: 1.5;
+}
+
+.text-small {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
 @media screen and (max-width: 415px) {
   h1 {
     font-size: 30px;
@@ -71,8 +85,16 @@ h2 {
   }
 }
 
-.w-100 {
+.container {
+  max-width: 1200px;
+}
+
+.flex-basis-100 {
   flex-basis: 100%;
+}
+
+.w-100 {
+  width: 100%;
 }
 
 .m-0 {
@@ -112,10 +134,21 @@ h2 {
 
   border: none;
   border-radius: 5px;
+
+  color: #fff;
+  text-transform: uppercase;
 }
 
 .btn-green {
-  color: #fff;
+
+  border: none;
 
   background-color: var(--green);
+}
+
+.btn-transparent {
+  border: 1px solid #fff;
+
+  background-color: transparent;
+  cursor: pointer;
 }

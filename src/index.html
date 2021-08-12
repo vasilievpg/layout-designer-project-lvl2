@@ -1,46 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Портал «Music Box» pavel_vasilev</title>
-    <link rel="stylesheet" href="css/app.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Портал «Music Box» pavel_vasilev</title>
+  <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
 <header class="header">
-    <nav class="navbar-items">
-        <div class="navbar-logo">
-            <img src="images/logo.svg" alt="logo" class="logo-img">
-            <span class="logo-text">Music Box</span>
-        </div>
-        <a href="#" class="navbar-link">Главная</a>
-        <a href="#" class="navbar-link">Каталог</a>
-        <a href="#" class="navbar-link">Исполнители</a>
-        <a href="#" class="navbar-link">Контакты</a>
-    </nav>
-    <div class="navbar-items navbar-right">
-        <form action="#" class="navbar-link">
-            <label for="search">
-                <input type="text" id="search" class="search-top arial-13-up" placeholder="Поиск...">
-            </label>
-        </form>
+  <nav class="navbar-items">
+    <div class="navbar-logo">
+      <img src="images/logo.svg" alt="logo" class="logo-img">
+      <span class="logo-text">Music Box</span>
     </div>
+    <a href="#" class="navbar-link">Главная</a>
+    <a href="#" class="navbar-link">Каталог</a>
+    <a href="#" class="navbar-link">Исполнители</a>
+    <a href="#" class="navbar-link">Контакты</a>
+  </nav>
+  <div class="navbar-items navbar-right">
+    <form action="#" class="navbar-link">
+      <label for="search">
+        <input type="text" id="search" class="search-top arial-13-up" placeholder="Поиск...">
+      </label>
+    </form>
+  </div>
 </header>
 <section class="page-description">
-    <h1 class="h1-hero">Онлайн музыка где угодно</h1>
-    <h2 class="m-0">без ограничений</h2>
-    <p class="text-size-1 hero-lead">Получите доступ всего за несколько шагов. Заполните форму ниже и откройте мир музыки</p>
-    <form action="#" class="get-access-form">
-        <div class="container-form">
-            <div class="get-access-fields">
-                <label for="name" class="sr-only"></label>
-                <input type="text" id="name" placeholder="Имя" class="get-access-field">
-                <label for="email" class="sr-only"></label>
-                <input type="text" id="email" placeholder="Email" class="get-access-field">
-            </div>
-            <button type="submit" class="btn btn-green arial-13-up w-100">Получить доступ</button>
-        </div>
-    </form>
+  <h1 class="h1-hero">Онлайн музыка где угодно</h1>
+  <h2 class="m-0">без ограничений</h2>
+  <p class="text-size-1 hero-lead">Получите доступ всего за несколько шагов. Заполните форму ниже и откройте мир
+    музыки</p>
+  <form action="#" class="get-access-form">
+    <div class="container-form">
+      <div class="get-access-fields">
+        <label for="name" class="sr-only"></label>
+        <input type="text" id="name" placeholder="Имя" class="get-access-field">
+        <label for="email" class="sr-only"></label>
+        <input type="text" id="email" placeholder="Email" class="get-access-field">
+      </div>
+      <button type="submit" class="btn btn-green arial-13-up flex-basis-100">Получить доступ</button>
+    </div>
+  </form>
+</section>
+<section class="page-pricing d-flex justify-center">
+  <div class="container">
+    <h2 class="m-0">Формы подписки</h2>
+    <div class="pricing-items">
+      <div class="pricing-item bg-free">
+        <h3>Бесплатная</h3>
+        <p class="pricing-value"><span class="price-num">0</span><span
+            class="price-currency text-size-3 uppercase">руб.</span></p>
+        <button class="btn btn-transparent w-100">Оформить</button>
+        <p class="pricing-footer text-small">Оплата в месяц. Бесплатный тариф предоставляет доступ ко всей коллекции
+          музыки. Присутствует реклама</p>
+      </div>
+      <div class="pricing-item bg-standart">
+        <h3>Стандартная</h3>
+        <p class="pricing-value"><span class="price-num">250</span><span
+            class="price-currency text-size-3 uppercase">руб.</span></p>
+        <button class="btn btn-transparent w-100">Оформить</button>
+        <p class="pricing-footer text-small">Оплата в месяц. Стандартный тариф предоставляет доступ ко всей коллекции
+          музыки в среднем качестве</p>
+      </div>
+      <div class="pricing-item bg-premium">
+        <h3>Премиум</h3>
+        <p class="pricing-value"><span class="price-num">500</span><span
+            class="price-currency text-size-3 uppercase">руб.</span></p>
+        <button class="btn btn-transparent w-100">Оформить</button>
+        <p class="pricing-footer text-small">Оплата в месяц. Премиум тариф предоставляет доступ ко всей коллекции музыки
+          в высоком качестве</p>
+      </div>
+    </div>
+    <p class="text-size-1 explanation">На всех тарифах возможно прослушивание музыки с мобильных устройств. На премиум
+      тарифе вы можете скачать все композиции на ваше устройство и слушать музыку без подключения к интернету</p>
+  </div>
+</section>
+<section class="page-news">
+
 </section>
 </body>
 </html>
