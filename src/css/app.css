@@ -77,6 +77,22 @@ h2 {
   text-transform: uppercase;
 }
 
+.container {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.two-column {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 48px;
+}
+
+.left-column {
+  max-width: 600px;
+  margin-right: 144px;
+}
+
 @media screen and (max-width: 415px) {
   h1 {
     font-size: 30px;
@@ -97,11 +113,6 @@ h2 {
   text-align: center;
 }
 
-.container {
-  width: 100%;
-  max-width: 1200px;
-}
-
 .flex-basis-100 {
   flex-basis: 100%;
 }
@@ -114,8 +125,16 @@ h2 {
   margin: 0;
 }
 
+.mt-16 {
+  margin-top: 16px;
+}
+
 .mt-48 {
   margin-top: 48px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
 }
 
 .pt-100 {
@@ -157,13 +176,18 @@ h2 {
   box-sizing: border-box;
   border: none;
   border-radius: 5px;
-  text-transform: uppercase;
   text-decoration: none;
   cursor: pointer;
 }
 
 .btn-big {
   padding: 20px 30px;
+}
+
+.btn-round {
+  padding: 16px 40px;
+  border-radius: 32px;
+  font-size: 12.8px;
 }
 
 .btn-small {
@@ -175,6 +199,12 @@ h2 {
   border: none;
   color: #fff;
   background-color: var(--green);
+}
+
+.btn-red {
+  border: none;
+  color: #fff;
+  background-color: var(--red);
 }
 
 .btn-transparent-white {
