@@ -105,6 +105,16 @@ h2 {
     padding-right: 20px;
     padding-left: 20px;
   }
+
+  .left-column {
+    order: 2;
+    margin-right: 0;
+  }
+
+  .app-image {
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 
 .text-center {
@@ -129,6 +139,10 @@ h2 {
 
 .mt-48 {
   margin-top: 48px;
+}
+
+.mb-0 {
+  margin-bottom: 0;
 }
 
 .mb-100 {
@@ -235,4 +249,9 @@ h2 {
 
 .text-white {
   color: #fff;
+}
+
+.app-image {
+  width: 100%;
+  max-width: 333px;
 }
