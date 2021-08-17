@@ -3,11 +3,9 @@
 .nav {
   &-list {
     display: flex;
-    align-self: center;
 
     @include mobile {
       flex-direction: column;
-      margin-left: 20px;
     }
   }
 
@@ -29,20 +27,3 @@
   }
 }
 
-.navbar-logo {
-  display: flex;
-  align-items: center;
-}
-
-.logo-img {
-  width: 24px;
-  margin-right: 16px;
-}
-
-.logo-text {
-  @include uppercase;
-  margin-right: 91px;
-
-  color: #fff;
-  font-size: 10px;
-}
