@@ -1,0 +1,9 @@
+@mixin uppercase {
+  text-transform: uppercase;
+}
+
+@mixin mobile {
+  @media (max-width: (415px)) {
+    @content;
+  }
+}
