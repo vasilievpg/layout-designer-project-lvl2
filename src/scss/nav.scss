@@ -24,6 +24,9 @@
     color: var(--dark-gray);
     font-size: 10px;
     text-decoration: none;
+
+    &:not(:last-child) {
+      padding-right: 24px;
+    }
   }
 }
-

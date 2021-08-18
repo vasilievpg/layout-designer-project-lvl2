@@ -85,7 +85,9 @@ h2 {
 
 .container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1240px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .two-column {
@@ -108,11 +110,6 @@ h2 {
   h2 {
     font-size: 18px;
     line-height: 27px;
-  }
-
-  .container {
-    padding-right: 20px;
-    padding-left: 20px;
   }
 
   .left-column {
@@ -256,10 +253,8 @@ h2 {
   top: 25px;
   left: 50%;
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1240px;
   transform: translateX(-50%);
 }
 .header-container {
@@ -276,28 +271,32 @@ h2 {
   display: flex;
   align-items: center;
 }
+@media (max-width: 415px) {
+  .header-logo {
+    margin-bottom: 17px;
+  }
+}
 .header-logo-img {
   width: 24px;
   margin-right: 16px;
 }
-
-.navbar-link {
+.header-logo-text {
   text-transform: uppercase;
-  color: var(--dark-gray);
+  margin-right: 91px;
+  color: #fff;
   font-size: 10px;
-  text-decoration: none;
 }
-.navbar-link:not(:last-child) {
-  padding-right: 24px;
-}
-
-.navbar-right {
-  display: flex;
-  align-items: center;
+.header-right {
   margin-left: auto;
 }
-
-.search-top {
+@media (max-width: 415px) {
+  .header-right {
+    width: calc(100% - 20px);
+    margin-top: 18px;
+    margin-left: 0;
+  }
+}
+.header-search {
   display: inline-block;
   width: 248px;
   padding: 5px 10px;
@@ -305,36 +304,10 @@ h2 {
   border-radius: 50px;
   background-color: var(--dark);
 }
-
-@media screen and (max-width: 415px) {
-  .navbar,
-.navbar-items {
-    flex-direction: column;
-    align-items: normal;
-  }
-
-  .navbar-items {
-    margin-left: 20px;
-  }
-
-  .header-logo {
-    margin-bottom: 17px;
-  }
-
-  .navbar-right {
-    margin-top: 18px;
-    margin-right: 20px;
-  }
-
-  .search-top {
+@media (max-width: 415px) {
+  .header-search {
     width: 100%;
   }
-}
-.logo-text {
-  text-transform: uppercase;
-  margin-right: 91px;
-  color: #fff;
-  font-size: 10px;
 }
 
 .nav-list {
@@ -357,6 +330,9 @@ h2 {
   color: var(--dark-gray);
   font-size: 10px;
   text-decoration: none;
+}
+.nav-link:not(:last-child) {
+  padding-right: 24px;
 }
 
 .page-description {
