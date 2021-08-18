@@ -1,6 +1,4 @@
-.page-pricing {
-  text-align: center;
-}
+@import "mixins";
 
 .pricing-items {
   display: grid;
@@ -8,20 +6,21 @@
   justify-content: center;
 
   column-gap: 47px;
+
+  @include mobile {
+    grid-template-columns: repeat(auto-fit, 374px);
+  }
 }
 
 .pricing-item {
   box-sizing: border-box;
-  margin-top: 50px;
-  padding: 0 1.5rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
   border-radius: 1rem;
 }
 
 .pricing-item h3 {
-  padding-top: 24px;
-
   font-weight: 400;
-  text-transform: uppercase;
 }
 
 .bg-free {
@@ -39,39 +38,11 @@
   background-size: cover;
 }
 
-.pricing-value {
-  margin-top: 200px;
-}
-
 .price-num {
-  margin-right: 16px;
-
   font-size: 64px;
   vertical-align: middle;
 }
 
 .price-currency {
   line-height: 1em;
-}
-
-.pricing-footer {
-  padding-top: 64px;
-  padding-bottom: 64px;
-}
-
-.explanation {
-  margin-top: 43px;
-
-  color: #fff;
-}
-
-@media screen and (max-width: 415px) {
-  //.page-pricing {
-  //  padding-right: 20px;
-  //  padding-left: 20px;
-  //}
-
-  .pricing-items {
-    grid-template-columns: repeat(auto-fit, 374px);
-  }
 }

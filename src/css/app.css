@@ -149,8 +149,17 @@ h2 {
 .mt-16 {
   margin-top: 16px;
 }
+.mt-43 {
+  margin-top: 43px;
+}
 .mt-48 {
   margin-top: 48px;
+}
+.mt-50 {
+  margin-top: 50px;
+}
+.mt-200 {
+  margin-top: 200px;
 }
 .mr-16 {
   margin-right: 16px;
@@ -179,13 +188,24 @@ h2 {
   padding-right: 10px;
   padding-left: 10px;
 }
+.py-0 {
+  padding-top: 0;
+  padding-bottom: 0;
+}
 .py-5 {
   padding-top: 5px;
   padding-bottom: 5px;
 }
+.py-64 {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
 .py-200 {
   padding-top: 200px;
   padding-bottom: 200px;
+}
+.pt-24 {
+  padding-top: 24px;
 }
 .pt-100 {
   padding-top: 100px;
@@ -373,28 +393,27 @@ h2 {
   }
 }
 
-.page-pricing {
-  text-align: center;
-}
-
 .pricing-items {
   display: grid;
   grid-template-columns: repeat(auto-fit, 368px);
   justify-content: center;
   column-gap: 47px;
 }
+@media (max-width: 415px) {
+  .pricing-items {
+    grid-template-columns: repeat(auto-fit, 374px);
+  }
+}
 
 .pricing-item {
   box-sizing: border-box;
-  margin-top: 50px;
-  padding: 0 1.5rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
   border-radius: 1rem;
 }
 
 .pricing-item h3 {
-  padding-top: 24px;
   font-weight: 400;
-  text-transform: uppercase;
 }
 
 .bg-free {
@@ -412,12 +431,7 @@ h2 {
   background-size: cover;
 }
 
-.pricing-value {
-  margin-top: 200px;
-}
-
 .price-num {
-  margin-right: 16px;
   font-size: 64px;
   vertical-align: middle;
 }
@@ -426,21 +440,6 @@ h2 {
   line-height: 1em;
 }
 
-.pricing-footer {
-  padding-top: 64px;
-  padding-bottom: 64px;
-}
-
-.explanation {
-  margin-top: 43px;
-  color: #fff;
-}
-
-@media screen and (max-width: 415px) {
-  .pricing-items {
-    grid-template-columns: repeat(auto-fit, 374px);
-  }
-}
 .news-title {
   color: #fff;
   font-weight: normal;
