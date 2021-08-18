@@ -1,0 +1,19 @@
+@import "mixins";
+
+.app-description {
+  max-width: 600px;
+
+  @include mobile {
+    order: 2;
+    margin-right: 0;
+  }
+}
+
+.app-image {
+  max-width: 333px;
+
+  @include mobile {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
