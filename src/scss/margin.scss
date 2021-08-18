@@ -1,0 +1,44 @@
+.m {
+  &-0 {
+    margin: 0;
+  }
+
+  &t {
+    &-16 {
+      margin-top: 16px;
+    }
+
+    &-48 {
+      margin-top: 48px;
+    }
+  }
+
+  &r {
+    &-16 {
+      margin-right: 16px;
+    }
+
+    &-91 {
+      margin-right: 91px;
+    }
+
+    &-144 {
+      margin-right: 144px;
+    }
+  }
+
+  &b {
+    &-0 {
+      margin-bottom: 0;
+    }
+    &-100 {
+      margin-bottom: 100px;
+    }
+  }
+
+  &l {
+    &-auto {
+      margin-left: auto;
+    }
+  }
+}

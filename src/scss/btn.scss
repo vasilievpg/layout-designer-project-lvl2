@@ -1,0 +1,57 @@
+.btn {
+  display: inline-block;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 5px;
+
+  text-decoration: none;
+
+  cursor: pointer;
+
+  &-big {
+    padding: 20px 30px;
+  }
+
+  &-small {
+    padding: 16px 30px;
+
+    font-size: 12px;
+  }
+
+  &-round {
+    padding: 16px 40px;
+    border-radius: 32px;
+
+    font-size: 12.8px;
+  }
+
+  &-green {
+    color: #fff;
+
+    background-color: var(--green);
+  }
+
+  &-red {
+    color: #fff;
+
+    background-color: var(--red);
+  }
+
+  &-transparent {
+    border: 1px solid;
+
+    background-color: transparent;
+
+    &-white {
+      border-color: #fff;
+
+      color: #fff;
+    }
+
+    &-gray {
+      border-color: #cacaca;
+
+      color: #cacaca;
+    }
+  }
+}

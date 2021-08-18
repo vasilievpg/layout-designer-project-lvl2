@@ -8,48 +8,48 @@
   <link rel="stylesheet" href="css/global.css">
 </head>
 <body>
-<header class="header">
-  <div class="container header-container">
-    <div class="header-logo">
-      <img src="images/logo.svg" alt="logo" class="header-logo-img">
-      <span class="header-logo-text">Music Box</span>
+<header class="header flex w-100">
+  <div class="container header-container flex flex-align-items-center">
+    <div class="header-logo flex flex-align-items-center">
+      <img src="images/logo.svg" alt="logo" class="header-logo-img mr-16">
+      <span class="header-logo-text text-10 text-uppercase mr-91 color-white">Music Box</span>
     </div>
     <nav class="nav">
-      <ul class="nav-list list-reset">
-        <li class="nav-item"><a href="#" class="nav-link">Главная</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Каталог</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Исполнители</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Контакты</a></li>
+      <ul class="nav-list list-reset flex">
+        <li class="nav-item flex flex-align-items-center"><a href="#" class="nav-link text-10 text-uppercase">Главная</a></li>
+        <li class="nav-item flex flex-align-items-center"><a href="#" class="nav-link text-10 text-uppercase">Каталог</a></li>
+        <li class="nav-item flex flex-align-items-center"><a href="#" class="nav-link text-10 text-uppercase">Исполнители</a></li>
+        <li class="nav-item flex flex-align-items-center"><a href="#" class="nav-link text-10 text-uppercase">Контакты</a></li>
       </ul>
     </nav>
-    <div class="header-right">
+    <div class="header-right ml-auto">
       <form action="#">
         <label for="search">
-          <input type="text" id="search" class="header-search arial-13-up" placeholder="Поиск...">
+          <input type="text" id="search" class="header-search py-5 px-10 text-arial-13 text-uppercase" placeholder="Поиск...">
         </label>
       </form>
     </div>
   </div>
 
 </header>
-<section class="page-description">
-  <h1 class="h1-hero">Онлайн музыка где угодно</h1>
+<section class="page-description py-200 px-0 text-center">
+  <h1 class="h1-hero m-0">Онлайн музыка где угодно</h1>
   <h2 class="m-0">без ограничений</h2>
   <p class="text-size-1 hero-lead">Получите доступ всего за несколько шагов. Заполните форму ниже и откройте мир
     музыки</p>
-  <form action="#" class="get-access-form">
-    <div class="container-form">
-      <div class="get-access-fields">
+  <form action="#" class="get-access-form flex flex-wrap flex-justify-content-center">
+    <div class="container-form flex flex-wrap">
+      <div class="flex flex-wrap flex-justify-content-between w-100">
         <label for="name" class="sr-only"></label>
-        <input type="text" id="name" placeholder="Имя" class="get-access-field">
+        <input type="text" id="name" placeholder="Имя" class="get-access-field pl-20">
         <label for="email" class="sr-only"></label>
-        <input type="text" id="email" placeholder="Email" class="get-access-field">
+        <input type="text" id="email" placeholder="Email" class="get-access-field pl-20">
       </div>
-      <button type="submit" class="btn btn-green btn-big arial-13-up flex-basis-100">Получить доступ</button>
+      <button type="submit" class="btn btn-green btn-big text-arial-13 flex-basis-100">Получить доступ</button>
     </div>
   </form>
 </section>
-<section class="page-pricing d-flex justify-center pt-100">
+<section class="page-pricing flex flex-justify-content-center pt-100">
   <div class="container">
     <h2 class="m-0">Формы подписки</h2>
     <div class="pricing-items">
@@ -82,7 +82,7 @@
       тарифе вы можете скачать все композиции на ваше устройство и слушать музыку без подключения к интернету</p>
   </div>
 </section>
-<section class="page-news d-flex justify-center pt-100">
+<section class="page-news flex flex-justify-content-center pt-100">
   <div class="container">
     <h2 class="m-0 text-center">Последние новости</h2>
     <div class="news-item">
@@ -124,17 +124,13 @@
     </div>
   </div>
 </section>
-<section class="page-app d-flex justify-center pt-100 mb-100">
+<section class="page-app flex flex-justify-content-center pt-100 mb-100">
   <div class="container">
     <h2 class="m-0 text-center">Мобильное приложение</h2>
-    <div class="two-column">
+    <div class="two-column flex flex-wrap mt-48">
       <div class="left-column text-size-1">
-        <p>Воспользуйтесь нашим мобильным приложением. Оно позволит слушать музыку с любого устройства на базе
-          операционных систем Androind и iOS</p>
-        <p class="mb-0">С тарифом «Премиум» приложение позволяет скачивать все композиции из нашей коллекции. Вы можете
-          слушать
-          музыку
-          даже без интернета.</p>
+        <p>Воспользуйтесь нашим мобильным приложением. Оно позволит слушать музыку с любого устройства на базе операционных систем Androind и iOS</p>
+        <p class="mb-0">С тарифом «Премиум» приложение позволяет скачивать все композиции из нашей коллекции. Вы можете слушать музыку даже без интернета.</p>
         <a href="#" class="btn btn-red btn-round mt-16">Скачать</a>
       </div>
       <img src="images/iphone.png" alt="iphone" class="app-image"/>

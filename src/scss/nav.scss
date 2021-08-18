@@ -2,27 +2,19 @@
 
 .nav {
   &-list {
-    display: flex;
-
     @include mobile {
       flex-direction: column;
     }
   }
 
   &-item {
-
-    display: flex;
-    align-items: center;
-
     &:not(:last-child) {
       margin-right: 24px;
     }
   }
 
   &-link {
-    @include uppercase;
     color: var(--dark-gray);
-    font-size: 10px;
     text-decoration: none;
 
     &:not(:last-child) {
