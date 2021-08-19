@@ -28,6 +28,24 @@
     }
   }
 
+  &-nav {
+    &-list {
+      @include mobile {
+        flex-direction: column;
+      }
+    }
+
+    &-item {
+      &:not(:last-child) {
+        margin-right: 24px;
+      }
+    }
+
+    &-link {
+      color: var(--dark-gray);
+    }
+  }
+
   &-right {
 
     @include mobile {

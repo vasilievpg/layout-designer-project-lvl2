@@ -1,0 +1,39 @@
+.icon {
+  display: inline-block;
+  padding: 0;
+  border: none;
+
+  background-color: unset;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  cursor: pointer;
+
+  &-google-plus {
+    width: 26px;
+    height: 17px;
+
+    background-image: url("../images/Google+.png");
+  }
+
+  &-twitter {
+    width: 22px;
+    height: 19px;
+
+    background-image: url("../images/Twitter.png");
+  }
+
+  &-facebook {
+    width: 12px;
+    height: 20px;
+
+    background-image: url("../images/Facebook.png");
+  }
+
+  &-instagram {
+    width: 19px;
+    height: 20px;
+
+    background-image: url("../images/Instagram.png");
+  }
+}

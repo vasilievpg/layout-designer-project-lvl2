@@ -1,0 +1,51 @@
+@import "mixins";
+
+.footer {
+  &-h2 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  &-bg-gradient {
+    background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+  }
+
+  &-top {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 40px;
+
+    @include mobile {
+      gap: 30px;
+    }
+
+    &-icon-grid {
+      display: grid;
+      grid-template-columns: repeat(4, min-content);
+      gap: 24px;
+    }
+  }
+
+  &-bottom {
+    border-top: 2px solid var(--dark-gray);
+  }
+
+  &-nav {
+    &-list {
+      @include mobile {
+        flex-direction: column;
+      }
+    }
+
+    &-item {
+      &:not(:last-child) {
+        margin-right: 16px;
+
+        @include mobile {
+          padding-bottom: 16px;
+        }
+      }
+    }
+  }
+}

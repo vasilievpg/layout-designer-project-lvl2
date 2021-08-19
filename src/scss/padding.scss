@@ -9,6 +9,11 @@
       padding-right: 10px;
       padding-left: 10px;
     }
+
+    &-1_5rem {
+      padding-right: 1.5rem;
+      padding-left: 1.5rem;
+    }
   }
 
   &y {
@@ -31,9 +36,23 @@
       padding-top: 200px;
       padding-bottom: 200px;
     }
+
+    &-2rem {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+
+    &-3rem {
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+    }
   }
 
   &t {
+    &-20 {
+      padding-top: 20px;
+    }
+
     &-24 {
       padding-top: 24px;
     }
