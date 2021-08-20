@@ -1,9 +1,17 @@
 @import "mixins";
 
 .page-description {
-  background-image: url("../images/banner.png");
+
   background-position: center;
   background-size: cover;
+
+  &-home {
+    background-image: url("../images/banner.png");
+  }
+
+  &-morten_harket {
+    background-image: url("../images/Morten Harket.png");
+  }
 }
 
 .h1-hero {

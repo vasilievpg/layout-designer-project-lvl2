@@ -18,6 +18,10 @@
     font-size: 12px;
   }
 
+  &-w-200 {
+    width: 200px;
+  }
+
   &-round {
     padding: 16px 40px;
     border-radius: 32px;
@@ -37,6 +41,12 @@
     background-color: var(--red);
   }
 
+  &-purple {
+    color: #fff;
+
+    background-color: var(--purple);
+  }
+
   &-transparent {
     border: 1px solid;
 
@@ -54,4 +64,8 @@
       color: #cacaca;
     }
   }
+}
+
+.two-buttons:first-child {
+  margin-right: 1.5rem;
 }

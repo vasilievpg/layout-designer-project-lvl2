@@ -1,12 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Портал «Music Box» pavel_vasilev</title>
-    <link rel="stylesheet" href="css/app.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Портал «Music Box» pavel_vasilev</title>
+  <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
+<header class="header w-100">
+  <div class="container header-container flex flex-align-items-center">
+    <div class="header-logo flex flex-align-items-center">
+      <img src="images/logo.svg" alt="logo" class="header-logo-img mr-16">
+      <span class="header-logo-text text-10 text-uppercase mr-91 color-white">Music Box</span>
+    </div>
+    <nav class="header-nav">
+      <ul class="header-nav-list list-reset flex">
+        <li class="header-nav-item flex flex-align-items-center"><a href="#"
+                                                                    class="header-nav-link text-10 text-uppercase">Главная</a>
+        </li>
+        <li class="header-nav-item flex flex-align-items-center"><a href="#"
+                                                                    class="header-nav-link text-10 text-uppercase">Каталог</a>
+        </li>
+        <li class="header-nav-item flex flex-align-items-center"><a href="#"
+                                                                    class="header-nav-link text-10 text-uppercase">Исполнители</a>
+        </li>
+        <li class="header-nav-item flex flex-align-items-center"><a href="#"
+                                                                    class="header-nav-link text-10 text-uppercase">Контакты</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header-right ml-auto">
+      <form action="#">
+        <label for="search">
+          <input type="text" id="search" class="header-search py-5 px-10 text-arial-13 text-uppercase"
+                 placeholder="Поиск...">
+        </label>
+      </form>
+    </div>
+  </div>
 
+</header>
+<section class="page-description page-description-morten_harket py-200 px-0">
+  <div class="container">
+    <h1 class="h1-hero m-0">Morten Harket</h1>
+    <p class="text-size-1 hero-lead">24 875 поклонников</p>
+    <div class="">
+      <button class="btn btn-reset btn-big btn-purple btn-w-200 text-uppercase text-12_8 two-buttons">Микс</button>
+      <button class="btn btn-reset btn-big btn-red btn-w-200 text-uppercase text-12_8 two-buttons">В избранное</button>
+    </div>
+  </div>
+</section>
 </body>
 </html>
