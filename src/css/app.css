@@ -477,12 +477,6 @@ a {
   font-size: 14px;
 }
 
-@media (max-width: 415px) {
-  .hero-lead {
-    margin: 16px 20px;
-  }
-}
-
 .pricing-items {
   display: grid;
   grid-template-columns: repeat(auto-fit, 368px);
