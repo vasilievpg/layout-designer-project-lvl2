@@ -9,18 +9,27 @@
   background-size: contain;
   cursor: pointer;
 
+  &-btn {
+    width: 20px;
+    height: 20px;
+    margin-right: 16px;
+
+    filter: invert(1);
+  }
+
+  &-btn-play {
+    background-image: url("../images/play-button.svg");
+  }
+
+  &-btn-heart {
+    background-image: url("../images/heart.svg");
+  }
+
   &-google-plus {
     width: 26px;
     height: 17px;
 
     background-image: url("../images/Google+.png");
-  }
-
-  &-twitter {
-    width: 22px;
-    height: 19px;
-
-    background-image: url("../images/Twitter.png");
   }
 
   &-facebook {
@@ -35,5 +44,12 @@
     height: 20px;
 
     background-image: url("../images/Instagram.png");
+  }
+
+  &-twitter {
+    width: 22px;
+    height: 19px;
+
+    background-image: url("../images/Twitter.png");
   }
 }

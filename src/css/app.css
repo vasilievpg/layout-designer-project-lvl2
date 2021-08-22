@@ -326,6 +326,23 @@ a {
 .btn-big {
   padding: 20px 30px;
 }
+.btn-group {
+  display: flex;
+}
+@media (max-width: 415px) {
+  .btn-group {
+    display: block;
+  }
+}
+.btn-icon {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 415px) {
+  .btn-icon:not(:last-child) {
+    margin-bottom: 24px;
+  }
+}
 .btn-small {
   padding: 16px 30px;
   font-size: 12px;
@@ -363,7 +380,7 @@ a {
   color: #cacaca;
 }
 
-.two-buttons:first-child {
+.two-buttons:not(:last-child) {
   margin-right: 1.5rem;
 }
 
@@ -377,15 +394,22 @@ a {
   background-size: contain;
   cursor: pointer;
 }
+.icon-btn {
+  width: 20px;
+  height: 20px;
+  margin-right: 16px;
+  filter: invert(1);
+}
+.icon-btn-play {
+  background-image: url("../images/play-button.svg");
+}
+.icon-btn-heart {
+  background-image: url("../images/heart.svg");
+}
 .icon-google-plus {
   width: 26px;
   height: 17px;
   background-image: url("../images/Google+.png");
-}
-.icon-twitter {
-  width: 22px;
-  height: 19px;
-  background-image: url("../images/Twitter.png");
 }
 .icon-facebook {
   width: 12px;
@@ -396,6 +420,11 @@ a {
   width: 19px;
   height: 20px;
   background-image: url("../images/Instagram.png");
+}
+.icon-twitter {
+  width: 22px;
+  height: 19px;
+  background-image: url("../images/Twitter.png");
 }
 
 .page-description {
