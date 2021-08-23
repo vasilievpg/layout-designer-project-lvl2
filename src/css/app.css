@@ -570,6 +570,11 @@ a {
   }
 }
 
+.track-image {
+  width: 55px;
+  height: 55px;
+}
+
 .footer-h2 {
   font-weight: bold;
   font-size: 18px;
