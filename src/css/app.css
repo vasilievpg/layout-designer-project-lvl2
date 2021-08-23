@@ -228,6 +228,9 @@ a {
   padding-left: 20px;
 }
 
+.text-bold {
+  font-weight: bold;
+}
 .text-size-1 {
   font-size: 16px;
   line-height: 1.5;
@@ -570,9 +573,23 @@ a {
   }
 }
 
+.tracks {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(374px, 551px));
+  column-gap: 50px;
+  row-gap: 25px;
+}
+
 .track-image {
   width: 55px;
   height: 55px;
+}
+.track-names {
+  display: flex;
+  flex-direction: column;
+}
+.track-title {
+  line-height: 19.2px;
 }
 
 .footer-h2 {

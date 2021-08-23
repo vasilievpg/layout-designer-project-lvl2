@@ -1,6 +1,25 @@
+@import "mixins";
+
+.tracks {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(374px, 551px));
+
+  column-gap: 50px;
+  row-gap: 25px;
+}
+
 .track {
   &-image {
     width: 55px;
     height: 55px;
+  }
+
+  &-names {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &-title {
+    line-height: 19.2px;
   }
 }
