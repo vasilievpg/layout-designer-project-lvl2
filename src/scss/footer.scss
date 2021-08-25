@@ -14,8 +14,9 @@
   &-top {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+
     column-gap: 40px;
-    row-gap: 10px;
+    row-gap: 0;
 
     &-icon-grid {
       display: flex;
@@ -32,6 +33,7 @@
       padding: 0;
 
       list-style: none;
+
       @include mobile {
         flex-direction: column;
       }
