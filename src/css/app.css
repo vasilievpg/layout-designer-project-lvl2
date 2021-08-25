@@ -142,6 +142,9 @@ a {
 .mt-20 {
   margin-top: 20px;
 }
+.mt-40 {
+  margin-top: 40px;
+}
 .mt-43 {
   margin-top: 43px;
 }
@@ -686,12 +689,8 @@ a {
 .footer-top {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-  gap: 40px;
-}
-@media (max-width: 415px) {
-  .footer-top {
-    gap: 30px;
-  }
+  column-gap: 40px;
+  row-gap: 30px;
 }
 .footer-top-icon-grid {
   display: flex;

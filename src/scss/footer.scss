@@ -14,11 +14,8 @@
   &-top {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-    gap: 40px;
-
-    @include mobile {
-      gap: 30px;
-    }
+    column-gap: 40px;
+    row-gap: 30px;
 
     &-icon-grid {
       display: flex;
