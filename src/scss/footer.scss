@@ -2,7 +2,6 @@
 
 .footer {
   &-h2 {
-    margin-top: 0;
     font-weight: bold;
     font-size: 18px;
     line-height: 27px;
@@ -17,7 +16,7 @@
     grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
 
     column-gap: 40px;
-    row-gap: 30px;
+    row-gap: 2px;
 
     &-icon-grid {
       display: flex;

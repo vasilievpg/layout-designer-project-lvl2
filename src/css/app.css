@@ -679,7 +679,6 @@ a {
 }
 
 .footer-h2 {
-  margin-top: 0;
   font-weight: bold;
   font-size: 18px;
   line-height: 27px;
@@ -691,7 +690,7 @@ a {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
   column-gap: 40px;
-  row-gap: 30px;
+  row-gap: 2px;
 }
 .footer-top-icon-grid {
   display: flex;
