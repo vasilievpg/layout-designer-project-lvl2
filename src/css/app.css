@@ -694,8 +694,7 @@ a {
   }
 }
 .footer-top-icon-grid {
-  display: grid;
-  grid-template-columns: repeat(4, min-content);
+  display: flex;
   gap: 24px;
 }
 .footer-bottom {
