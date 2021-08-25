@@ -698,6 +698,10 @@ a {
 .footer-bottom {
   border-top: 2px solid var(--dark-gray);
 }
+.footer-nav-list {
+  padding: 0;
+  list-style: none;
+}
 @media (max-width: 415px) {
   .footer-nav-list {
     flex-direction: column;
