@@ -738,6 +738,9 @@ a {
   content: "";
 }
 
+.footer {
+  background-color: var(--black);
+}
 .footer-h2 {
   font-weight: bold;
   font-size: 18px;
