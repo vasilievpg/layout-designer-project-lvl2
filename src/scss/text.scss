@@ -1,4 +1,8 @@
 .text {
+  &-regular {
+    font-weight: 400;
+  }
+
   &-bold {
     font-weight: bold;
   }
@@ -6,6 +10,11 @@
   &-size {
     &-1 {
       font-size: 16px;
+      line-height: 1.5;
+    }
+
+    &-2 {
+      font-size: 24px;
       line-height: 1.5;
     }
 
@@ -26,6 +35,7 @@
 
   &-12_8 {
     font-size: 12.8px;
+    line-height: 1.5;
   }
 
   &-uppercase {

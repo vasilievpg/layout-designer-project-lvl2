@@ -4,6 +4,14 @@
   }
 
   &t {
+    &-5 {
+      margin-top: 5px;
+    }
+
+    &-10 {
+      margin-top: 10px;
+    }
+
     &-16 {
       margin-top: 16px;
     }
@@ -14,6 +22,10 @@
 
     &-30 {
       margin-top: 30px;
+    }
+
+    &-38 {
+      margin-top: 38px;
     }
 
     &-40 {
@@ -30,6 +42,10 @@
 
     &-50 {
       margin-top: 50px;
+    }
+
+    &-180 {
+      margin-top: 180px;
     }
 
     &-200 {

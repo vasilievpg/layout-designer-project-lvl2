@@ -136,6 +136,12 @@ a {
 .m-0 {
   margin: 0;
 }
+.mt-5 {
+  margin-top: 5px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
 .mt-16 {
   margin-top: 16px;
 }
@@ -144,6 +150,9 @@ a {
 }
 .mt-30 {
   margin-top: 30px;
+}
+.mt-38 {
+  margin-top: 38px;
 }
 .mt-40 {
   margin-top: 40px;
@@ -156,6 +165,9 @@ a {
 }
 .mt-50 {
   margin-top: 50px;
+}
+.mt-180 {
+  margin-top: 180px;
 }
 .mt-200 {
   margin-top: 200px;
@@ -208,6 +220,10 @@ a {
   padding-top: 5px;
   padding-bottom: 5px;
 }
+.py-52 {
+  padding-top: 52px;
+  padding-bottom: 52px;
+}
 .py-64 {
   padding-top: 64px;
   padding-bottom: 64px;
@@ -243,11 +259,18 @@ a {
   padding-left: 20px;
 }
 
+.text-regular {
+  font-weight: 400;
+}
 .text-bold {
   font-weight: bold;
 }
 .text-size-1 {
   font-size: 16px;
+  line-height: 1.5;
+}
+.text-size-2 {
+  font-size: 24px;
   line-height: 1.5;
 }
 .text-size-3 {
@@ -263,6 +286,7 @@ a {
 }
 .text-12_8 {
   font-size: 12.8px;
+  line-height: 1.5;
 }
 .text-uppercase {
   text-transform: uppercase;
@@ -499,6 +523,10 @@ a {
   display: grid;
   grid-template-columns: repeat(auto-fit, 368px);
   justify-content: center;
+  box-sizing: border-box;
+  max-width: 1240px;
+  padding-right: 20px;
+  padding-left: 20px;
   column-gap: 47px;
 }
 @media (max-width: 415px) {
