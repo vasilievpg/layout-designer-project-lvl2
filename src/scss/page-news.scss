@@ -8,28 +8,36 @@
   background-color: var(--black);
 }
 
-.news-title {
-  font-weight: normal;
-  font-size: 30px;
-  line-height: 45px;
-
-  @include mobile {
-    font-size: 16px;
+.news {
+  &-author {
+    color: var(--orange);
   }
-}
 
-.news-description {
-  max-width: 575px;
+  &-description {
+    max-width: 575px;
 
-  @include mobile {
-    margin-top: 50px;
+    @include mobile {
+      margin-top: 40px;
+    }
   }
-}
 
-.news-image {
-  max-width: 575px;
-}
+  &-image {
+    max-width: 575px;
+  }
 
-.news-author {
-  color: var(--orange);
+  &-text {
+    @include mobile {
+      margin-top: 5px;
+    }
+  }
+
+  &-title {
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 45px;
+
+    @include mobile {
+      font-size: 16px;
+    }
+  }
 }

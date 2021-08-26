@@ -586,6 +586,25 @@ a {
   background-color: var(--black);
 }
 
+.news-author {
+  color: var(--orange);
+}
+.news-description {
+  max-width: 575px;
+}
+@media (max-width: 415px) {
+  .news-description {
+    margin-top: 40px;
+  }
+}
+.news-image {
+  max-width: 575px;
+}
+@media (max-width: 415px) {
+  .news-text {
+    margin-top: 5px;
+  }
+}
 .news-title {
   font-weight: normal;
   font-size: 30px;
@@ -595,23 +614,6 @@ a {
   .news-title {
     font-size: 16px;
   }
-}
-
-.news-description {
-  max-width: 575px;
-}
-@media (max-width: 415px) {
-  .news-description {
-    margin-top: 50px;
-  }
-}
-
-.news-image {
-  max-width: 575px;
-}
-
-.news-author {
-  color: var(--orange);
 }
 
 .app-description {
