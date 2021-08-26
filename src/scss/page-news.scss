@@ -27,7 +27,7 @@
 
   &-text {
     @include mobile {
-      margin-top: 5px;
+      margin-top: 15px;
     }
   }
 
@@ -37,7 +37,9 @@
     line-height: 45px;
 
     @include mobile {
+      margin-top: 10px;
       font-size: 16px;
+      line-height: 24px;
     }
   }
 }
