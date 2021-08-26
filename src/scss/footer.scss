@@ -44,10 +44,6 @@
 
   &-nav {
     &-list {
-      padding: 0;
-
-      list-style: none;
-
       @include mobile {
         flex-direction: column;
       }
