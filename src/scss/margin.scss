@@ -3,6 +3,13 @@
     margin: 0;
   }
 
+  &y {
+    &-65 {
+      margin-top: 65px;
+      margin-bottom: 65px;
+    }
+  }
+
   &t {
     &-5 {
       margin-top: 5px;
@@ -18,6 +25,10 @@
 
     &-20 {
       margin-top: 20px;
+    }
+
+    &-24 {
+      margin-top: 24px;
     }
 
     &-30 {

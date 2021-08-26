@@ -136,6 +136,10 @@ a {
 .m-0 {
   margin: 0;
 }
+.my-65 {
+  margin-top: 65px;
+  margin-bottom: 65px;
+}
 .mt-5 {
   margin-top: 5px;
 }
@@ -147,6 +151,9 @@ a {
 }
 .mt-20 {
   margin-top: 20px;
+}
+.mt-24 {
+  margin-top: 24px;
 }
 .mt-30 {
   margin-top: 30px;
@@ -219,10 +226,6 @@ a {
 .py-5 {
   padding-top: 5px;
   padding-bottom: 5px;
-}
-.py-52 {
-  padding-top: 52px;
-  padding-bottom: 52px;
 }
 .py-64 {
   padding-top: 64px;
@@ -519,14 +522,17 @@ a {
   font-size: 14px;
 }
 
+.page-pricing {
+  max-width: 1240px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
 .pricing-items {
   display: grid;
   grid-template-columns: repeat(auto-fit, 368px);
   justify-content: center;
   box-sizing: border-box;
-  max-width: 1240px;
-  padding-right: 20px;
-  padding-left: 20px;
   column-gap: 47px;
 }
 @media (max-width: 415px) {
