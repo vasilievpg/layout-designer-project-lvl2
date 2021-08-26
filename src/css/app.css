@@ -472,6 +472,7 @@ a {
 }
 
 .page-description {
+  background-color: var(--black);
   background-position: center;
   background-size: cover;
 }
