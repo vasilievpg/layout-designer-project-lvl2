@@ -242,6 +242,9 @@ a {
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
+.pt-3rem {
+  padding-top: 3rem;
+}
 .pt-20 {
   padding-top: 20px;
 }
@@ -253,6 +256,12 @@ a {
 }
 .pr-16 {
   padding-right: 16px;
+}
+.pb-25 {
+  padding-bottom: 25px;
+}
+.pb-55 {
+  padding-bottom: 55px;
 }
 .pb-100 {
   padding-bottom: 100px;
