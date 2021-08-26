@@ -1,5 +1,13 @@
 @import "mixins";
 
+.page-popular-track {
+  max-width: 1200px;
+  padding-right: 20px;
+  padding-left: 20px;
+
+  background-color: var(--black);
+}
+
 .tracks {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(374px, 551px));

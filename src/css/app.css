@@ -682,6 +682,13 @@ a {
   }
 }
 
+.page-popular-track {
+  max-width: 1200px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: var(--black);
+}
+
 .tracks {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(374px, 551px));
@@ -699,6 +706,13 @@ a {
 }
 .track-title {
   line-height: 19.2px;
+}
+
+.page-discography {
+  max-width: 1200px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: var(--black);
 }
 
 .discography-album-title {
@@ -736,6 +750,13 @@ a {
   width: 100%;
   height: 100%;
   content: "";
+}
+
+.page-similar {
+  max-width: 1200px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: var(--black);
 }
 
 .similar-title {
