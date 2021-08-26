@@ -193,6 +193,9 @@ a {
 .mb-18 {
   margin-bottom: 18px;
 }
+.mb-28 {
+  margin-bottom: 28px;
+}
 .mb-65 {
   margin-bottom: 65px;
 }
@@ -251,6 +254,9 @@ a {
 .pt-24 {
   padding-top: 24px;
 }
+.pt-63 {
+  padding-top: 63px;
+}
 .pt-100 {
   padding-top: 100px;
 }
@@ -262,6 +268,9 @@ a {
 }
 .pb-55 {
   padding-bottom: 55px;
+}
+.pb-73 {
+  padding-bottom: 73px;
 }
 .pb-100 {
   padding-bottom: 100px;
@@ -757,6 +766,7 @@ a {
 }
 
 .footer-h2 {
+  margin: 0;
   font-weight: bold;
   font-size: 18px;
   line-height: 27px;
@@ -764,8 +774,14 @@ a {
 .footer-top {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  padding-bottom: 44px;
   column-gap: 40px;
   row-gap: 2px;
+}
+@media (max-width: 415px) {
+  .footer-top {
+    padding-bottom: 73px;
+  }
 }
 .footer-top-icon-grid {
   display: flex;
