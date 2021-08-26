@@ -1,16 +1,15 @@
 @import "mixins";
 
+.bg-gradient {
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+}
+
 .footer {
-  background-color: var(--black);
 
   &-h2 {
     font-weight: bold;
     font-size: 18px;
     line-height: 27px;
-  }
-
-  &-bg-gradient {
-    background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
   }
 
   &-top {

@@ -738,16 +738,14 @@ a {
   content: "";
 }
 
-.footer {
-  background-color: var(--black);
+.bg-gradient {
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
+
 .footer-h2 {
   font-weight: bold;
   font-size: 18px;
   line-height: 27px;
-}
-.footer-bg-gradient {
-  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
 .footer-top {
   display: grid;
