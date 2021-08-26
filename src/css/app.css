@@ -484,15 +484,12 @@ a {
 }
 
 @media (max-width: 415px) {
-  .h1-hero {
-    margin-top: 78px;
+  .hero-h1 {
+    margin-top: 45px;
   }
 }
-
-@media (max-width: 415px) {
-  .get-access-form {
-    margin: 0 20px;
-  }
+.hero-lead {
+  margin-top: 20px;
 }
 
 .container-form {

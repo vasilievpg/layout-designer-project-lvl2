@@ -15,15 +15,15 @@
   }
 }
 
-.h1-hero {
-  @include mobile {
-    margin-top: 78px;
+.hero {
+  &-h1 {
+    @include mobile {
+      margin-top: 45px;
+    }
   }
-}
 
-.get-access-form {
-  @include mobile {
-    margin: 0 20px;
+  &-lead {
+    margin-top: 20px;
   }
 }
 
