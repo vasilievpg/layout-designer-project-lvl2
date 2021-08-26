@@ -269,6 +269,9 @@ a {
 .pb-30 {
   padding-bottom: 30px;
 }
+.pb-48 {
+  padding-bottom: 48px;
+}
 .pb-55 {
   padding-bottom: 55px;
 }
@@ -791,7 +794,13 @@ a {
   gap: 24px;
 }
 .footer-bottom {
+  padding-bottom: 48px;
   border-top: 2px solid var(--dark-gray);
+}
+@media (max-width: 415px) {
+  .footer-bottom {
+    padding-bottom: 32px;
+  }
 }
 .footer-nav-list {
   padding: 0;

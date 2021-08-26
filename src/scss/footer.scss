@@ -34,7 +34,12 @@
   }
 
   &-bottom {
+    padding-bottom: 48px;
     border-top: 2px solid var(--dark-gray);
+
+    @include mobile {
+      padding-bottom: 32px;
+    }
   }
 
   &-nav {
