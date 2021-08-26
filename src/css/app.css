@@ -799,6 +799,11 @@ a {
     flex-direction: column;
   }
 }
+@media (max-width: 415px) {
+  .footer-nav-link {
+    display: block;
+  }
+}
 .footer-nav-item:not(:last-child) {
   margin-right: 16px;
 }

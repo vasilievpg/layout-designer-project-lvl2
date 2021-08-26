@@ -48,6 +48,12 @@
       }
     }
 
+    &-link {
+      @include mobile {
+        display: block;
+      }
+    }
+
     &-item {
       &:not(:last-child) {
         margin-right: 16px;
