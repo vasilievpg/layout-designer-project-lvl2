@@ -540,14 +540,19 @@ a {
     grid-template-columns: repeat(auto-fit, 374px);
   }
 }
-
 .pricing-item {
   box-sizing: border-box;
   border-radius: 1rem;
 }
-
-.pricing-item h3 {
+.pricing-item-h3 {
   font-weight: 400;
+}
+@media (max-width: 415px) {
+  .pricing-item-h3 {
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 16px;
+  }
 }
 
 .bg-free {

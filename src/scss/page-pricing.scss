@@ -4,30 +4,40 @@
   max-width: 1200px;
   padding-right: 20px;
   padding-left: 20px;
+
   background-color: var(--black);
 }
 
-.pricing-items {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, 368px);
-  justify-content: center;
+.pricing {
+  &-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 368px);
+    justify-content: center;
 
-  box-sizing: border-box;
+    box-sizing: border-box;
 
-  column-gap: 47px;
+    column-gap: 47px;
 
-  @include mobile {
-    grid-template-columns: repeat(auto-fit, 374px);
+    @include mobile {
+      grid-template-columns: repeat(auto-fit, 374px);
+    }
   }
-}
 
-.pricing-item {
-  box-sizing: border-box;
-  border-radius: 1rem;
-}
+  &-item {
+    box-sizing: border-box;
+    border-radius: 1rem;
 
-.pricing-item h3 {
-  font-weight: 400;
+    &-h3 {
+      font-weight: 400;
+
+      @include mobile {
+        margin-top: 15px;
+
+        font-weight: 600;
+        font-size: 16px;
+      }
+    }
+  }
 }
 
 .bg-free {
