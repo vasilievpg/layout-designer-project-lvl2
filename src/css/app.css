@@ -802,16 +802,12 @@ a {
     flex-direction: column;
   }
 }
-@media (max-width: 415px) {
-  .footer-nav-link {
-    display: block;
-  }
-}
-.footer-nav-item {
+.footer-nav-link {
   margin-right: 16px;
 }
 @media (max-width: 415px) {
-  .footer-nav-item {
+  .footer-nav-link {
+    display: block;
     padding-bottom: 16px;
   }
 }
