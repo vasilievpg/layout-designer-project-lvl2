@@ -23,7 +23,10 @@
   }
 
   &-lead {
-    margin-top: 20px;
+
+    @include mobile {
+      margin-top: 20px;
+    }
   }
 }
 

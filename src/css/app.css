@@ -488,8 +488,10 @@ a {
     margin-top: 45px;
   }
 }
-.hero-lead {
-  margin-top: 20px;
+@media (max-width: 415px) {
+  .hero-lead {
+    margin-top: 20px;
+  }
 }
 
 .container-form {
