@@ -813,7 +813,7 @@ a {
 @media (max-width: 415px) {
   .footer-nav-link {
     display: block;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
   }
 }
 
