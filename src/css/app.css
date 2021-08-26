@@ -807,11 +807,11 @@ a {
     display: block;
   }
 }
-.footer-nav-item:not(:last-child) {
+.footer-nav-item {
   margin-right: 16px;
 }
 @media (max-width: 415px) {
-  .footer-nav-item:not(:last-child) {
+  .footer-nav-item {
     padding-bottom: 16px;
   }
 }
