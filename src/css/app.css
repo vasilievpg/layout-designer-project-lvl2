@@ -145,8 +145,14 @@ a {
 .mt-10 {
   margin-top: 10px;
 }
+.mt-15 {
+  margin-top: 15px;
+}
 .mt-16 {
   margin-top: 16px;
+}
+.mt-19 {
+  margin-top: 19px;
 }
 .mt-20 {
   margin-top: 20px;
@@ -195,6 +201,9 @@ a {
 }
 .mb-28 {
   margin-bottom: 28px;
+}
+.mb-30 {
+  margin-bottom: 30px;
 }
 .mb-65 {
   margin-bottom: 65px;
@@ -786,7 +795,7 @@ a {
 }
 @media (max-width: 415px) {
   .footer-top {
-    padding-bottom: 73px;
+    padding-bottom: 72px;
   }
 }
 .footer-top-icon-grid {
