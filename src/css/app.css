@@ -762,9 +762,19 @@ a {
   background-color: var(--black);
 }
 
+@media (max-width: 415px) {
+  .similar-fans {
+    display: block;
+  }
+}
 .similar-title {
   font-size: 18px;
   line-height: 27px;
+}
+@media (max-width: 415px) {
+  .similar-title {
+    display: block;
+  }
 }
 .similar-image {
   width: 250px;
