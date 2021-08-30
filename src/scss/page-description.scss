@@ -16,16 +16,24 @@
 }
 
 .hero {
+  &-container {
+    margin-top: 50px;
+
+    @include mobile {
+      margin-top: 25px;
+    }
+  }
+
   &-h1 {
     @include mobile {
-      margin-top: 45px;
+      margin-top: 25px;
     }
   }
 
   &-lead {
 
     @include mobile {
-      margin-top: 20px;
+      margin-top: 18px;
     }
   }
 }
