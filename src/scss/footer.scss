@@ -37,7 +37,7 @@
     column-gap: 40px;
     row-gap: 2px;
 
-    @include mobile {
+    @media (max-width: (415px)) {
       padding-bottom: 72px;
     }
 
@@ -50,14 +50,14 @@
   &-bottom {
     padding: 40px 0 48px 0;
 
-    @include mobile {
+    @media (max-width: (415px)) {
       padding-bottom: 30px;
     }
   }
 
   &-nav {
     &-list {
-      @include mobile {
+      @media (max-width: (415px)) {
         flex-direction: column;
       }
     }
@@ -67,7 +67,7 @@
 
       color: var(--gray);
 
-      @include mobile {
+      @media (max-width: (415px)) {
         display: block;
         margin-bottom: 16px;
       }

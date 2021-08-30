@@ -19,7 +19,7 @@
     width: 250px;
     height: 250px;
 
-    @include mobile {
+    @media (max-width: (415px)) {
       width: 137px;
       height: 137px;
     }
@@ -32,7 +32,7 @@
     column-gap: 50px;
     row-gap: 25px;
 
-    @include mobile {
+    @media (max-width: (415px)) {
       grid-template-columns: repeat(auto-fit, 137px);
     }
   }

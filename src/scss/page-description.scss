@@ -19,26 +19,26 @@
   &-container {
     margin-top: 50px;
 
-    @include mobile {
+    @media (max-width: (415px)) {
       margin-top: 25px;
     }
 
     &-home {
-      @include mobile {
+      @media (max-width: (415px)) {
         margin-top: 50px;
       }
     }
   }
 
   &-h1 {
-    @include mobile {
+    @media (max-width: (415px)) {
       margin-top: 25px;
     }
   }
 
   &-lead {
 
-    @include mobile {
+    @media (max-width: (415px)) {
       margin-top: 16px;
       margin-bottom: 16px;
     }
@@ -68,7 +68,7 @@
 
   background-color: transparent;
 
-  @include mobile {
+  @media (max-width: (415px)) {
     width: 100%;
   }
 
