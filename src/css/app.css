@@ -136,6 +136,10 @@ a {
 .m-0 {
   margin: 0;
 }
+.mx-auto {
+  margin-right: auto;
+  margin-left: auto;
+}
 .my-65 {
   margin-top: 65px;
   margin-bottom: 65px;
