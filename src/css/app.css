@@ -608,12 +608,12 @@ a {
   border-radius: 1rem;
 }
 .pricing-item-h3 {
-  font-weight: 600;
+  font-weight: 400;
 }
 @media (max-width: 415px) {
   .pricing-item-h3 {
     margin-top: 15px;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 16px;
   }
 }
