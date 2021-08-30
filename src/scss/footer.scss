@@ -6,6 +6,20 @@
 }
 
 .footer {
+  &-line {
+    position: absolute;
+    left: 0;
+
+    width: 100%;
+    border: 1px solid #e0e0e0;
+
+    background-color: #e0e0e0;
+  }
+
+  &-link {
+    color: var(--gray);
+  }
+
   &-h2 {
     margin: 0;
 
@@ -34,11 +48,10 @@
   }
 
   &-bottom {
-    padding-bottom: 48px;
-    border-top: 2px solid var(--dark-gray);
+    padding: 40px 0 48px 0;
 
     @include mobile {
-      padding-bottom: 32px;
+
     }
   }
 
@@ -51,6 +64,8 @@
 
     &-link {
       margin-right: 16px;
+
+      color: var(--gray);
 
       @include mobile {
         display: block;
