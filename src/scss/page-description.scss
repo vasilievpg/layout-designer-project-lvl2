@@ -22,6 +22,12 @@
     @include mobile {
       margin-top: 25px;
     }
+
+    &-home {
+      @include mobile {
+        margin-top: 50px;
+      }
+    }
   }
 
   &-h1 {
