@@ -608,7 +608,7 @@ a {
   border-radius: 1rem;
 }
 .pricing-item-h3 {
-  font-weight: 400;
+  font-weight: 600;
 }
 @media (max-width: 415px) {
   .pricing-item-h3 {
@@ -672,6 +672,7 @@ a {
   font-weight: normal;
   font-size: 30px;
   line-height: 45px;
+  text-transform: capitalize;
 }
 @media (max-width: 415px) {
   .news-title {
@@ -744,6 +745,7 @@ a {
 .discography-album-title {
   font-size: 18px;
   line-height: 27px;
+  text-transform: capitalize;
 }
 .discography-image {
   width: 250px;
@@ -785,6 +787,7 @@ a {
 .similar-title {
   font-size: 18px;
   line-height: 27px;
+  text-transform: capitalize;
 }
 @media (max-width: 415px) {
   .similar-title {

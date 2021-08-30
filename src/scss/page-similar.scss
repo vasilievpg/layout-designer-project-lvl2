@@ -17,6 +17,7 @@
   &-title {
     font-size: 18px;
     line-height: 27px;
+    text-transform: capitalize;
 
     @include mobile {
       display: block;
