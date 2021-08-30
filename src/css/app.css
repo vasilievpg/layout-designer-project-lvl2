@@ -151,6 +151,9 @@ a {
 .mt-16 {
   margin-top: 16px;
 }
+.mt-18 {
+  margin-top: 16px;
+}
 .mt-19 {
   margin-top: 19px;
 }
@@ -777,6 +780,7 @@ a {
   }
 }
 .similar-image {
+  display: block;
   width: 250px;
   height: 250px;
 }
@@ -795,7 +799,6 @@ a {
 @media (max-width: 415px) {
   .similar-items {
     grid-template-columns: repeat(auto-fit, 137px);
-    row-gap: 24px;
   }
 }
 .similar-item {
