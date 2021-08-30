@@ -795,6 +795,7 @@ a {
 @media (max-width: 415px) {
   .similar-items {
     grid-template-columns: repeat(auto-fit, 137px);
+    row-gap: 24px;
   }
 }
 .similar-item {

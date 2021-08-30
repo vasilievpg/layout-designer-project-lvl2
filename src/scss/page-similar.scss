@@ -42,6 +42,7 @@
 
     @include mobile {
       grid-template-columns: repeat(auto-fit, 137px);
+      row-gap: 24px;
     }
   }
 
