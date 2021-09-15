@@ -38,6 +38,11 @@
     &-link {
       color: var(--dark-gray);
     }
+
+    &-active {
+      color: var(--white);
+      font-size: 11px;
+    }
   }
 
   &-right {

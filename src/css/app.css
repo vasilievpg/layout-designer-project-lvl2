@@ -7,6 +7,7 @@
   --orange: #f89202;
   --purple: #5328a1;
   --red: #95390c;
+  --white: #fff;
 }
 
 @font-face {
@@ -391,6 +392,10 @@ a {
 }
 .header-nav-link {
   color: var(--dark-gray);
+}
+.header-nav-active {
+  color: var(--white);
+  font-size: 11px;
 }
 @media (max-width: 415px) {
   .header-right {
