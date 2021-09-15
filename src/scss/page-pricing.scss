@@ -8,8 +8,6 @@
     grid-template-columns: repeat(auto-fit, 368px);
     justify-content: center;
 
-    box-sizing: border-box;
-
     column-gap: 47px;
 
     @include mobile {
@@ -18,7 +16,6 @@
   }
 
   &-item {
-    box-sizing: border-box;
     border-radius: 1rem;
 
     &-h3 {
