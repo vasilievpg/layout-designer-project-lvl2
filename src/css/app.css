@@ -109,6 +109,10 @@ a {
   list-style: none;
 }
 
+.align-items-center {
+  align-items: center;
+}
+
 .flex {
   display: flex;
 }
@@ -126,9 +130,6 @@ a {
 }
 .flex-justify-content-center {
   justify-content: center;
-}
-.flex-align-items-center {
-  align-items: center;
 }
 .flex-basis-100 {
   flex-basis: 100%;
