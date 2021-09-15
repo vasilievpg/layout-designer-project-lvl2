@@ -16,6 +16,10 @@
   src: url(../fonts/Roboto-Bold.ttf);
 }
 
+html {
+  box-sizing: border-box;
+}
+
 body {
   position: relative;
 
@@ -108,4 +112,10 @@ a {
 
 .align-items-center {
   align-items: center;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
 }
