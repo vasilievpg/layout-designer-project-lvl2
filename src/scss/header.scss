@@ -1,5 +1,3 @@
-@import "mixins";
-
 .header {
   position: absolute;
   top: 25px;
@@ -10,14 +8,14 @@
   transform: translateX(-50%);
 
   &-container {
-    @media (max-width: (415px)) {
+    @include mobile {
       flex-direction: column;
       align-items: start;
     }
   }
 
   &-logo {
-    @media (max-width: (415px)) {
+    @include mobile {
       margin-bottom: 17px;
     }
 
@@ -28,7 +26,7 @@
 
   &-nav {
     &-list {
-      @media (max-width: (415px)) {
+      @include mobile {
         flex-direction: column;
       }
     }
@@ -45,7 +43,7 @@
   }
 
   &-right {
-    @media (max-width: (415px)) {
+    @include mobile {
 
       width: calc(100% - 20px);
       margin-top: 18px;
@@ -61,7 +59,7 @@
 
     background-color: var(--dark);
 
-    @media (max-width: (415px)) {
+    @include mobile {
       width: 100%;
     }
   }

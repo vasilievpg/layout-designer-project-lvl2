@@ -1,5 +1,3 @@
-@import "mixins";
-
 .page-similar {
   max-width: 1200px;
   padding-right: 20px;
@@ -10,7 +8,7 @@
 
 .similar {
   &-fans {
-    @media (max-width: (415px)) {
+    @include mobile {
       display: block;
     }
   }
@@ -20,7 +18,7 @@
     line-height: 27px;
     text-transform: capitalize;
 
-    @media (max-width: (415px)) {
+    @include mobile {
       display: block;
     }
   }
@@ -30,7 +28,7 @@
     width: 250px;
     height: 250px;
 
-    @media (max-width: (415px)) {
+    @include mobile {
       width: 137px;
       height: 137px;
     }
@@ -43,7 +41,7 @@
     column-gap: 50px;
     row-gap: 25px;
 
-    @media (max-width: (415px)) {
+    @include mobile {
       grid-template-columns: repeat(auto-fit, 137px);
     }
   }

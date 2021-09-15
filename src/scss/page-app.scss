@@ -1,5 +1,3 @@
-@import "mixins";
-
 .page-app {
   max-width: 1200px;
   padding-right: 20px;
@@ -11,7 +9,7 @@
 .app-description {
   max-width: 600px;
 
-  @media (max-width: (415px)) {
+  @include mobile {
     order: 2;
     margin-right: 0;
   }
@@ -20,7 +18,7 @@
 .app-image {
   max-width: 333px;
 
-  @media (max-width: (415px)) {
+  @include mobile {
     margin-right: auto;
     margin-left: auto;
   }

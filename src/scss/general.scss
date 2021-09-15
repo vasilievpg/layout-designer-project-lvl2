@@ -1,5 +1,3 @@
-@import "mixins";
-
 @font-face {
   font-weight: 400;
   font-family: "Roboto";
@@ -44,7 +42,7 @@ h1 {
   font-size: 60px;
   line-height: 1.5;
 
-  @media (max-width: (415px)) {
+  @include mobile {
     font-size: 30px;
     line-height: 45px;
   }
@@ -54,7 +52,7 @@ h2 {
   font-size: 38px;
   line-height: 1.5;
 
-  @media (max-width: (415px)) {
+  @include mobile {
     font-size: 18px;
     line-height: 27px;
   }
