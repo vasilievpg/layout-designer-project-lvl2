@@ -365,7 +365,6 @@ a {
   position: absolute;
   top: 25px;
   left: 50%;
-  max-width: 1240px;
   transform: translateX(-50%);
 }
 @media (max-width: 415px) {
