@@ -364,10 +364,6 @@ a {
 .text-uppercase {
   text-transform: uppercase;
 }
-.text-arial-13 {
-  font-size: 13.3px;
-  font-family: Arial, sans-serif;
-}
 .text-white {
   color: #fff;
 }
