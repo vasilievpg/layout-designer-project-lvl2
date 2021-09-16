@@ -697,9 +697,6 @@ a {
 }
 
 .page-app {
-  max-width: 1200px;
-  padding-right: 20px;
-  padding-left: 20px;
   background-color: var(--black);
 }
 
