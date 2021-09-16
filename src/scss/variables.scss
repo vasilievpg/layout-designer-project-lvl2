@@ -10,13 +10,14 @@
   --white: #fff;
 }
 
+$breakepoint: 415px;
+$rem-base: 16px;
+
 @function rem($value) {
   $result: ($value / $rem-base) * 1rem;
 
   @return #{$result};
 }
-
-$rem-base: 16px;
 
 $sizes: (
   '0': 0,

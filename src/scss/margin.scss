@@ -143,8 +143,3 @@
     }
   }
 }
-
-@each $size, $value in $sizes {
-  @include indents('margin', 'm', $size, $value);
-  @include indents('padding', 'p', $size, $value);
-}
