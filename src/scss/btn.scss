@@ -13,6 +13,7 @@
 
   &-group {
     display: flex;
+    gap: 1.5rem;
 
     @include mobile {
       display: block;
@@ -84,6 +85,6 @@
   }
 }
 
-.two-buttons:not(:last-child) {
-  margin-right: 1.5rem;
-}
+//.two-buttons:not(:last-child) {
+//  margin-right: 1.5rem;
+//}

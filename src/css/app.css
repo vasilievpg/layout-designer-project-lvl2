@@ -448,6 +448,7 @@ a {
 }
 .btn-group {
   display: flex;
+  gap: 1.5rem;
 }
 @media (max-width: 415px) {
   .btn-group {
@@ -498,10 +499,6 @@ a {
 .btn-transparent-gray {
   border-color: #cacaca;
   color: #cacaca;
-}
-
-.two-buttons:not(:last-child) {
-  margin-right: 1.5rem;
 }
 
 .icon {
