@@ -365,7 +365,7 @@ a {
   text-transform: uppercase;
 }
 .text-white {
-  color: #fff;
+  color: var(--white);
 }
 .text-gray {
   color: var(--gray);
