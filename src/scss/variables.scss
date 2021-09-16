@@ -9,3 +9,23 @@
   --red: #95390c;
   --white: #fff;
 }
+
+@function rem($value) {
+  $result: ($value / $rem-base) * 1rem;
+
+  @return #{$result};
+}
+
+$rem-base: 16px;
+
+$sizes: (
+  '0': 0,
+  '1': rem($rem-base),
+  '2': rem($rem-base * 1.5),
+  '3': rem($rem-base * 2),
+  '4': rem($rem-base * 2.5),
+  '5': rem($rem-base * 3),
+  '6': rem($rem-base * 3.5),
+  '7': rem($rem-base * 4),
+  'auto': auto,
+);
