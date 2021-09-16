@@ -1,14 +1,14 @@
 @each $size, $value in $sizes {
-  @include indents('margin', 'm', $size, $value);
-  @include indents('padding', 'p', $size, $value);
+  @include indents('margin', 'mr', $size, $value);
+  @include indents('padding', 'pr', $size, $value);
 }
 
 @each $size, $value in $sizes {
   @include mobile {
-    @include indents('margin', 'm', $size, $value, 'xs');
+    @include indents('margin', 'mr', $size, $value, 'xs');
   }
 
   @include mobile {
-    @include indents('padding', 'p', $size, $value, 'xs');
+    @include indents('padding', 'pr', $size, $value, 'xs');
   }
 }
