@@ -596,6 +596,11 @@ a {
 .get-access-fields {
   width: 100%;
 }
+@media (max-width: 415px) {
+  .get-access-fields {
+    gap: 1.5rem;
+  }
+}
 
 .get-access-field {
   min-width: 270px;

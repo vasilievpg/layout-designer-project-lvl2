@@ -53,6 +53,10 @@
 
 .get-access-fields {
   width: 100%;
+
+  @include mobile {
+    gap: 1.5rem;
+  }
 }
 
 .get-access-field {
