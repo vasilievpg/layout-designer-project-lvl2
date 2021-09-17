@@ -3851,6 +3851,10 @@ a {
   font-size: 14px;
 }
 
+.page-pricing {
+  background-color: var(--black);
+}
+
 .pricing-items {
   display: grid;
   grid-template-columns: repeat(auto-fit, 368px);
@@ -3860,7 +3864,6 @@ a {
 @media (max-width: 415px) {
   .pricing-items {
     grid-template-columns: repeat(auto-fit, 374px);
-    row-gap: 50px;
   }
 }
 .pricing-item {
