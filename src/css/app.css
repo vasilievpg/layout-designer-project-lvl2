@@ -3860,7 +3860,7 @@ a {
 @media (max-width: 415px) {
   .pricing-items {
     grid-template-columns: repeat(auto-fit, 374px);
-    row-gap: 50px;
+    row-gap: 48px;
   }
 }
 .pricing-item {
