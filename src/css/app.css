@@ -3562,6 +3562,10 @@ a {
     padding-left: auto;
   }
 }
+.m-0 {
+  margin: 0;
+}
+
 .text-regular {
   font-weight: 400;
 }
@@ -3860,6 +3864,7 @@ a {
 @media (max-width: 415px) {
   .pricing-items {
     grid-template-columns: repeat(auto-fit, 374px);
+    row-gap: 50px;
   }
 }
 .pricing-item {

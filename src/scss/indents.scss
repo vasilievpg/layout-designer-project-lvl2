@@ -12,3 +12,7 @@
     @include indents('padding', 'p', $size, $value, 'xs');
   }
 }
+
+.m-0 {
+  margin: 0;
+}
