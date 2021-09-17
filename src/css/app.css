@@ -3851,10 +3851,6 @@ a {
   font-size: 14px;
 }
 
-.page-pricing {
-  background-color: var(--black);
-}
-
 .pricing-items {
   display: grid;
   grid-template-columns: repeat(auto-fit, 368px);
