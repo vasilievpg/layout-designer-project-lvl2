@@ -11,8 +11,8 @@
     $prefix: '#{$media}-#{$size}';
   }
 
-  .#{$abbreviation}t-#{$prefix}r { #{$type}-top: $value; }
-  .#{$abbreviation}b-#{$prefix}r { #{$type}-bottom: $value; }
-  .#{$abbreviation}r-#{$prefix}r { #{$type}-right: $value; }
-  .#{$abbreviation}l-#{$prefix}r { #{$type}-left: $value; }
+  .#{$abbreviation}t-#{$prefix}-rem { #{$type}-top: $value; }
+  .#{$abbreviation}b-#{$prefix}-rem { #{$type}-bottom: $value; }
+  .#{$abbreviation}r-#{$prefix}-rem { #{$type}-right: $value; }
+  .#{$abbreviation}l-#{$prefix}-rem { #{$type}-left: $value; }
 }
