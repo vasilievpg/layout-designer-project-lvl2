@@ -3899,10 +3899,6 @@ a {
   line-height: 1em;
 }
 
-.page-news {
-  background-color: var(--black);
-}
-
 .news-author {
   color: var(--orange);
 }
