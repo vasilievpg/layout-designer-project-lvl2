@@ -3921,6 +3921,7 @@ a {
 }
 @media (max-width: 415px) {
   .news-title {
+    margin-top: 10px;
     font-size: 16px;
     line-height: 24px;
   }
