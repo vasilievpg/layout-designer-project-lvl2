@@ -6,9 +6,9 @@
   &-description {
     max-width: 575px;
 
-    @include mobile {
-      margin-top: 40px;
-    }
+    //@include mobile {
+    //  margin-top: 40px;
+    //}
   }
 
   &-image {
