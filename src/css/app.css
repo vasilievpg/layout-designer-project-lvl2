@@ -150,25 +150,6 @@ a {
   flex-basis: 100%;
 }
 
-.mb-28 {
-  margin-bottom: 28px;
-}
-.mb-30 {
-  margin-bottom: 30px;
-}
-.mb-65 {
-  margin-bottom: 65px;
-}
-.mb-100 {
-  margin-bottom: 100px;
-}
-.mb-1_5rem {
-  margin-bottom: 1.5rem;
-}
-.ml-auto {
-  margin-left: auto;
-}
-
 .px-0 {
   padding-right: 0;
   padding-left: 0;
@@ -3490,6 +3471,9 @@ a {
 }
 .mb-18px {
   margin-bottom: 18px;
+}
+.ml-auto {
+  margin-left: auto;
 }
 
 .text-regular {
