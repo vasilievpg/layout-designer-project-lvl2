@@ -3923,10 +3923,6 @@ a {
   }
 }
 
-.page-popular-track {
-  background-color: var(--black);
-}
-
 .tracks {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(374px, 551px));
