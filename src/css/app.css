@@ -3976,10 +3976,6 @@ a {
   position: relative;
 }
 
-.page-similar {
-  background-color: var(--black);
-}
-
 @media (max-width: 415px) {
   .similar-fans {
     display: block;
