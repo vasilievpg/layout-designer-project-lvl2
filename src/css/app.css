@@ -150,18 +150,6 @@ a {
   flex-basis: 100%;
 }
 
-.px-0 {
-  padding-right: 0;
-  padding-left: 0;
-}
-.px-10 {
-  padding-right: 10px;
-  padding-left: 10px;
-}
-.px-1_5rem {
-  padding-right: 1.5rem;
-  padding-left: 1.5rem;
-}
 .py-0 {
   padding-top: 0;
   padding-bottom: 0;
@@ -3474,6 +3462,11 @@ a {
 }
 .ml-auto {
   margin-left: auto;
+}
+
+.px-10px {
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .text-regular {
