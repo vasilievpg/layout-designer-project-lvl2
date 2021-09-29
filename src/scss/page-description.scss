@@ -13,6 +13,14 @@
   }
 }
 
+.hero {
+  &-h1 {
+    @include mobile {
+      margin-top: 25px;
+    }
+  }
+}
+
 .container-form {
   max-width: 570px;
 }
