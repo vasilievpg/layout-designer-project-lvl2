@@ -150,14 +150,6 @@ a {
   flex-basis: 100%;
 }
 
-.py-0 {
-  padding-top: 0;
-  padding-bottom: 0;
-}
-.py-5 {
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
 .py-64 {
   padding-top: 64px;
   padding-bottom: 64px;
@@ -3467,6 +3459,10 @@ a {
 .px-10px {
   padding-right: 10px;
   padding-left: 10px;
+}
+.py-5 {
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .text-regular {
