@@ -4077,9 +4077,9 @@ a {
 .footer-top {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-  padding-bottom: 40px;
+  padding-bottom: 42px;
   column-gap: 40px;
-  row-gap: 28px;
+  row-gap: 25px;
 }
 @media (max-width: 415px) {
   .footer-top {
