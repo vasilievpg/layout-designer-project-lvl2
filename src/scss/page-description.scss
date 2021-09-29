@@ -13,21 +13,6 @@
   }
 }
 
-.hero {
-  &-h1 {
-    @include mobile {
-      margin-top: 25px;
-    }
-  }
-
-  //&-lead {
-  //  @include mobile {
-  //    margin-top: 16px;
-  //    margin-bottom: 16px;
-  //  }
-  //}
-}
-
 .container-form {
   max-width: 570px;
 }
