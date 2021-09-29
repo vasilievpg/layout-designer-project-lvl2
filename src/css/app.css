@@ -4079,7 +4079,7 @@ a {
   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
   padding-bottom: 56px;
   column-gap: 40px;
-  row-gap: 25px;
+  row-gap: 14px;
 }
 @media (max-width: 415px) {
   .footer-top {
