@@ -150,9 +150,6 @@ a {
   flex-basis: 100%;
 }
 
-.m-0 {
-  margin: 0;
-}
 .mx-auto {
   margin-right: auto;
   margin-left: auto;
@@ -3565,6 +3562,10 @@ a {
     padding-left: auto;
   }
 }
+.m-0 {
+  margin: 0;
+}
+
 .text-regular {
   font-weight: 400;
 }
