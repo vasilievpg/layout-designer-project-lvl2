@@ -150,9 +150,6 @@ a {
   flex-basis: 100%;
 }
 
-.pt-63 {
-  padding-top: 63px;
-}
 .pt-100 {
   padding-top: 100px;
 }
@@ -3438,6 +3435,9 @@ a {
 .py-5px {
   padding-top: 5px;
   padding-bottom: 5px;
+}
+.pt-63px {
+  padding-top: 63px;
 }
 
 .text-regular {
