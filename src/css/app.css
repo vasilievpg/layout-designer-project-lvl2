@@ -150,9 +150,6 @@ a {
   flex-basis: 100%;
 }
 
-.mb-15 {
-  margin-bottom: 15px;
-}
 .mb-18 {
   margin-bottom: 18px;
 }
@@ -3490,6 +3487,9 @@ a {
 }
 .mb-10px {
   margin-bottom: 10px;
+}
+.mb-15px {
+  margin-bottom: 15px;
 }
 .mb-18px {
   margin-bottom: 18px;
