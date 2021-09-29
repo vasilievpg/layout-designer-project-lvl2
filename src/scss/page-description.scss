@@ -14,14 +14,6 @@
 }
 
 .hero {
-  &-container {
-    &-home {
-      @include mobile {
-        margin-top: 50px;
-      }
-    }
-  }
-
   &-h1 {
     @include mobile {
       margin-top: 25px;
