@@ -150,34 +150,6 @@ a {
   flex-basis: 100%;
 }
 
-.py-64 {
-  padding-top: 64px;
-  padding-bottom: 64px;
-}
-.py-200 {
-  padding-top: 200px;
-  padding-bottom: 200px;
-}
-.py-2rem {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-.py-3rem {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-.pt-3rem {
-  padding-top: 3rem;
-}
-.pt-20 {
-  padding-top: 20px;
-}
-.pt-24 {
-  padding-top: 24px;
-}
-.pt-63 {
-  padding-top: 63px;
-}
 .pt-100 {
   padding-top: 100px;
 }
