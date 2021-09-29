@@ -15,9 +15,9 @@
 
 .hero {
   &-h1 {
-    @include mobile {
-      margin-top: 25px;
-    }
+    //@include mobile {
+    //  margin-top: 25px;
+    //}
   }
 }
 
