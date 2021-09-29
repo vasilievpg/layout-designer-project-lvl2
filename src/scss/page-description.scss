@@ -20,12 +20,12 @@
     }
   }
 
-  &-lead {
-    @include mobile {
-      margin-top: 16px;
-      margin-bottom: 16px;
-    }
-  }
+  //&-lead {
+  //  @include mobile {
+  //    margin-top: 16px;
+  //    margin-bottom: 16px;
+  //  }
+  //}
 }
 
 .container-form {

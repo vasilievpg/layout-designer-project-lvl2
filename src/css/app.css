@@ -3798,12 +3798,6 @@ a {
     margin-top: 25px;
   }
 }
-@media (max-width: 415px) {
-  .hero-lead {
-    margin-top: 16px;
-    margin-bottom: 16px;
-  }
-}
 
 .container-form {
   max-width: 570px;
