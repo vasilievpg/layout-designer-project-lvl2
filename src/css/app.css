@@ -3793,14 +3793,6 @@ a {
   background-image: url("../images/Morten Harket.png");
 }
 
-.hero-container {
-  margin-top: 50px;
-}
-@media (max-width: 415px) {
-  .hero-container {
-    margin-top: 25px;
-  }
-}
 @media (max-width: 415px) {
   .hero-container-home {
     margin-top: 50px;

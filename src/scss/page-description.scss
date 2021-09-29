@@ -15,11 +15,11 @@
 
 .hero {
   &-container {
-    margin-top: 50px;
-
-    @include mobile {
-      margin-top: 25px;
-    }
+    //margin-top: 50px;
+    //
+    //@include mobile {
+    //  margin-top: 25px;
+    //}
 
     &-home {
       @include mobile {
