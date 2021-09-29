@@ -3794,6 +3794,11 @@ a {
 }
 
 @media (max-width: 415px) {
+  .hero-container-home {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 415px) {
   .hero-h1 {
     margin-top: 25px;
   }
