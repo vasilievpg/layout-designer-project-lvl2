@@ -150,31 +150,6 @@ a {
   flex-basis: 100%;
 }
 
-.pr-16 {
-  padding-right: 16px;
-}
-.pb-25 {
-  padding-bottom: 25px;
-}
-.pb-30 {
-  padding-bottom: 30px;
-}
-.pb-48 {
-  padding-bottom: 48px;
-}
-.pb-55 {
-  padding-bottom: 55px;
-}
-.pb-73 {
-  padding-bottom: 73px;
-}
-.pb-100 {
-  padding-bottom: 100px;
-}
-.pl-20 {
-  padding-left: 20px;
-}
-
 .mt-0-rem {
   margin-top: 0;
 }
