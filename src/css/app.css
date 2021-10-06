@@ -3547,11 +3547,6 @@ a {
   display: flex;
   align-items: center;
 }
-@media (max-width: 415px) {
-  .btn-icon:not(:last-child) {
-    margin-bottom: 24px;
-  }
-}
 .btn-small {
   padding: 16px 30px;
   font-size: 12px;

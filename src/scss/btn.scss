@@ -23,12 +23,6 @@
   &-icon {
     display: flex;
     align-items: center;
-
-    @include mobile {
-      &:not(:last-child) {
-        margin-bottom: 24px;
-      }
-    }
   }
 
   &-small {
@@ -84,7 +78,3 @@
     }
   }
 }
-
-//.two-buttons:not(:last-child) {
-//  margin-right: 1.5rem;
-//}
